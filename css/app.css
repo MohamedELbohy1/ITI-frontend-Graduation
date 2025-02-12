@@ -1,0 +1,498 @@
+body{
+    background-color: #181818;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+/* <!-- Start With Navbar --> */
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: all 0.3s;
+}
+.navbar .login-btn{
+    min-width: 123px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+.navbar .navbar-toggler {
+    filter: brightness(0) invert(1);
+    padding-block: 10px;
+    margin-left: 12px;
+}
+.navbar .navbar-toggler img{
+    width: 24px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#43b6ff;
+}
+.navbar .login-btn:hover{
+    background-color: #43b6ff;
+    border: none;
+}
+/* End With Navbar */
+/* Start with footer section */
+footer .footer-links ul li a,
+footer .more-details .contact ul li a{
+    text-decoration: none;
+    color: #fff;;
+}
+footer .footer-links ul ,
+footer .more-details .contact ul , 
+footer .more-details .social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 ;
+}
+/* Start with footer section */
+footer .footer-links ul li a{
+    display: block;
+    margin-bottom: 7px;
+    transition: all 0.3s;
+}
+footer .more-details .contact ul li a img {
+    width: 24px;
+    margin-right: 8px;
+    display: inline-block;
+}
+footer .more-details .contact ul li {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+footer .more-details .contact ul li a span {
+    display: inline-block;
+    transition: all .3s;
+}
+footer .more-details .social-media ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: all .3s;
+}
+footer .footer-links header h3{
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer .footer-links ul li a:hover{
+    transform: translateX(8px);
+}
+footer .more-details .social-media ul li:hover{
+    transform: translateY(-10px);
+}
+footer .more-details .contact ul li a:hover span{
+    transform: translateX(10px);
+    transform: scaleX(.9);
+}
+/* End with footer section */
+/* Start with Main Section */
+main{
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 35px;
+}
+main section{
+    max-width: 600px;
+    margin: auto;
+}
+main section header h1{
+    font-size:70px;
+    margin-bottom: 30px;
+}
+main section article p{
+    font-size: 20px;
+    margin-bottom:80px ;
+}
+main section article .actions button{
+    background: transparent;
+    min-width: 145px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 14px;
+    transition: all .3s;
+}
+main section article .actions button:first-child{
+background-color:#4452FE ;
+border: 1px solid #4452FE;
+}
+
+main section article .actions button:hover{
+    transform: scale(1.1) ;
+}
+/*End with Main Section */
+section .img img{
+    width: 100%;
+}
+/* Start with Feature Section */
+.feature-section{
+    margin: 160px 0;
+}
+.feature-section .container .section-title{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 70px; 
+}
+.section-title header h1{
+    font-size: 55px;
+}
+.section-title article p{
+    font-size: 18px;
+}
+.feature-section .section-content .features-cards .feature-card {
+    margin-block:80px;
+}
+
+.feature-section .section-content .features-cards .feature-card .feature-title h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.feature-section .section-content .features-cards .feature-card .feature-title h3 img {
+    margin-right: 15px;
+    
+}
+.feature-section .section-content .features-cards .feature-card .feature-content p{
+margin-bottom: 60px;
+font-size: 16px;
+}
+/* End with Feature Section */
+/* Start With Content Cards */
+.contents .content-title{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.contents .content-title header h1{
+    font-size:70px;
+    margin-bottom: 30px;
+}
+.contents .content-title article p{
+    font-size: 20px;
+    margin-bottom:80px ;
+}
+.content-cards .content-text {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    height: 730px;
+    max-width: 600px;
+    margin: 20px;
+}
+.content-cards .content-text article p{
+    font-size: 20px;
+    max-width: 300px;
+}
+.content-cards .content-text button{
+    background-color:#4452FE ;
+    min-width: 170px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 14px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 0px 5px blue;
+    transition: all 0.3s;
+}
+.content-cards .content-text button:hover{
+    transform: scale(1.2);
+}
+.contents .content-cards .content-text #imgs1{
+    border: 8px solid black;
+    border-radius: 10px;
+}
+/* End With Content Cards */
+/* Start with Gallery Section */
+.gallery{
+    margin: 170px 0;
+}
+.gallery .gallery-title{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 70px ;
+}
+.gallery .gallery-title header h1{
+    font-size:70px;
+    margin-bottom: 30px;
+}
+.gallery .gallery-title article p{
+    font-size: 20px;
+    margin-bottom:80px ;
+}
+.gallery .gallery-content .row .img-view img{
+    border-radius: 10px;
+}
+.gallery .gallery-content .row{
+     max-width: 1000px;
+     margin: auto;
+}
+.gallery .gallery-content .row img{
+    margin-bottom: 22px;
+}
+.gallery .second-gallery img{
+    margin: 20px;
+    border-radius: 20px;
+}
+.gallery .second-gallery .row #problem{
+    margin-inline: -50px;
+}
+.gallery .container .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery .container .btn button{
+    min-width: 145px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 14px;
+    transition: all .3s;
+}
+.gallery .container .btn button:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.2);
+}
+/* End with Gallery Section */
+/* Start with Partners Section */
+.partners{
+    margin: 170px 0;
+}
+.partners .partners-title{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 70px ;
+}
+.partners .partners-title header h1{
+    font-size:70px;
+    margin-bottom: 30px;
+}
+.partners .partners-title article p{
+    font-size: 20px;
+    margin-bottom:80px ;
+}
+.partners .partners-content .row .img-view img{
+    margin-block: 20px;
+}
+.partners .container .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .container .btn button{
+    min-width: 180px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    transition: all .3s;
+}
+.partners .container .btn button:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.2);
+}
+
+/* End with Partners Section */
+ /* Start with Testimonials Section */
+.testimonials{
+    margin: 170px 0;
+}
+.testimonials .testimonials-title {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 70px ;
+}
+.testimonials .testimonials-title header h1{
+    font-size:70px;
+    margin-bottom: 30px;
+}
+
+.testimonials .cards{
+    max-width: 900px;
+    margin: auto;
+}
+.testimonials .cards .card {
+    background-color: #181818;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    max-width: 500px;
+    height: 320px
+}
+.testimonials .cards #special {
+height: 340px;
+margin-bottom: 20px;
+}
+.testimonials .cards #special2{
+    margin-block: -20px;
+}
+.testimonials .cards .card .imgs span{
+    padding-left: 10px;
+}
+.testimonials .cards .card .imgs{
+    margin-bottom: 20px;
+}
+ /* End with Testimonials Section */
+ /* Start with Last Section */
+.last-section{
+    margin: 170px 0;
+}
+.last-section .container{
+    background-color: #343434;
+    border-radius: 10px;
+    
+
+}
+.last-section .container .last-content{
+    max-width: 500px;
+    margin: auto;
+    padding-block: 60px;
+}
+.last-section .container .last-img img{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.last-section .container .last-content .action-btn button{
+    background-color:#4452FE ;
+    min-width: 190px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin-block: 40px;
+    font-size: 20px;
+    border: none;
+    transition: all 0.3s;
+}
+.last-section .container .last-content .action-btn button:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* End with Last Section */
+
+
+
+
+@media(min-width:992px){
+    .navbar .navbar-nav .nav-item .nav-link{
+        padding-inline: 20px;
+    }
+    .login-mobile{
+        display: none;
+    }
+
+}
+@media (max-width:992px){
+    .login-web{
+        display: none;
+    }
+    .navbar .login-mobile{
+        min-width: 86px;
+        padding: 6px;
+    }
+    .navbar-brand img {
+        width: 140px;
+    }
+
+}
+
+@media (max-width:768px){
+    main section article .actions {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main section header h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    main section article p {
+        font-size: 25px;
+        margin-bottom: 40px;
+        font-weight: 300;
+    }
+    .feature-section,
+    .contents,
+    .gallery,
+    .partners,
+    .testimonials{
+        margin: 70px 0;
+    }
+    .section-title header h1,
+    .gallery .gallery-title header h1,
+    .partners .partners-title header h1,
+    .contents .content-title header h1,
+    .testimonials .testimonials-title header h1,
+    .last-section .container .last-content header h1{
+     font-size: 40px;
+     font-weight: 300;
+    }
+    .section-title article p,
+    .gallery .gallery-title article p,
+    .partners .partners-title article p,
+    .contents .content-title article p{
+        font-size: 16px;
+
+    }
+    .gallery .gallery-content,
+    .gallery .second-gallery,
+    .partners .partners-content ,
+    .last-section .container .last-content {
+      text-align: center;
+    }
+    .partners .partners-content .row .img-view img{
+        width:50px;
+        height: 50px;
+    }
+    .partners .partners-content .row .img-view #IBM-icon{
+        width: 100px;
+    }
+    .testimonials .cards .card{
+        width: 350px;
+        height: 380px;
+        margin-bottom: 10px;
+    }
+    .testimonials .cards .row{  
+       margin-inline: 35px;
+       
+    }
+    .testimonials .cards #special2{
+        margin-top: 3px;
+    }
+    .last-section .container{
+       width: 106%;
+       
+    }
+}
